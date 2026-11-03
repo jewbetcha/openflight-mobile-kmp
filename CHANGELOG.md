@@ -5,7 +5,7 @@ All notable changes to OpenFlight Companion are documented in this file. The for
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 Pre-releases are published as
-[GitHub pre-releases](https://github.com/btripp/openflight-mobile-kmp/releases). Each section
+[GitHub pre-releases](https://github.com/open-flight/openflight-mobile-kmp/releases). Each section
 lists the iOS build (`CURRENT_PROJECT_VERSION`) and the Android `versionCode` built from that
 tag. Plain `v0.1.0` waits on the hardware test matrix on a real Raspberry Pi.
 
@@ -372,11 +372,11 @@ Android 0.1.0 (versionCode 1). No GitHub release or store build.
   training, player selection, a radar/debug panel and a Pi shutdown.
 - Imperial or Metric units, accessibility labels, and app icons from the OpenFlight logo.
 
-[Unreleased]: https://github.com/btripp/openflight-mobile-kmp/compare/v0.1.0-beta.6...HEAD
-[0.1.0-beta.6]: https://github.com/btripp/openflight-mobile-kmp/compare/v0.1.0-beta.5...v0.1.0-beta.6
-[0.1.0-beta.5]: https://github.com/btripp/openflight-mobile-kmp/compare/v0.1.0-beta.4...v0.1.0-beta.5
-[0.1.0-beta.4]: https://github.com/btripp/openflight-mobile-kmp/compare/v0.1.0-beta.3...v0.1.0-beta.4
-[0.1.0-beta.3]: https://github.com/btripp/openflight-mobile-kmp/compare/v0.1.0-beta.2...v0.1.0-beta.3
-[0.1.0-beta.2]: https://github.com/btripp/openflight-mobile-kmp/compare/v0.1.0-beta.1...v0.1.0-beta.2
-[0.1.0-beta.1]: https://github.com/btripp/openflight-mobile-kmp/compare/v0.1.0-sim...v0.1.0-beta.1
-[0.1.0-sim]: https://github.com/btripp/openflight-mobile-kmp/releases/tag/v0.1.0-sim
+[Unreleased]: https://github.com/open-flight/openflight-mobile-kmp/compare/v0.1.0-beta.6...HEAD
+[0.1.0-beta.6]: https://github.com/open-flight/openflight-mobile-kmp/compare/v0.1.0-beta.5...v0.1.0-beta.6
+[0.1.0-beta.5]: https://github.com/open-flight/openflight-mobile-kmp/compare/v0.1.0-beta.4...v0.1.0-beta.5
+[0.1.0-beta.4]: https://github.com/open-flight/openflight-mobile-kmp/compare/v0.1.0-beta.3...v0.1.0-beta.4
+[0.1.0-beta.3]: https://github.com/open-flight/openflight-mobile-kmp/compare/v0.1.0-beta.2...v0.1.0-beta.3
+[0.1.0-beta.2]: https://github.com/open-flight/openflight-mobile-kmp/compare/v0.1.0-beta.1...v0.1.0-beta.2
+[0.1.0-beta.1]: https://github.com/open-flight/openflight-mobile-kmp/compare/v0.1.0-sim...v0.1.0-beta.1
+[0.1.0-sim]: https://github.com/open-flight/openflight-mobile-kmp/releases/tag/v0.1.0-sim
