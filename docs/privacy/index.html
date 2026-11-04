@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenFlight Companion privacy policy</title>
+<style>
+  body { font: 16px/1.6 system-ui, -apple-system, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; color: #1b1f23; background: #fff; }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; margin-top: 2rem; }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #121212; } a { color: #8ab4f8; } }
+</style>
+</head>
+<body>
+<h1>OpenFlight Companion privacy policy</h1>
+<p>Last updated: 3 November 2026</p>
+
+<p>OpenFlight Companion is an open-source app for Android and iOS that connects to an
+<a href="https://github.com/open-flight/openflight">OpenFlight</a> golf launch monitor you run yourself.
+It has no accounts, no ads, no analytics and no crash reporting. The developers don't run a server and
+don't receive any of your data.</p>
+
+<h2>Your shots</h2>
+<p>The app receives shot data from your own OpenFlight launch monitor over your local network or Bluetooth,
+and can send it commands such as the selected club or profile. Shot history, your club bag and your settings
+are stored only on your phone. They're removed when you delete them in the app or uninstall it.</p>
+
+<h2>Location and weather</h2>
+<p>If you turn on automatic conditions, the app asks for your approximate location and sends it to
+<a href="https://open-meteo.com/">Open-Meteo</a> over HTTPS to look up the current weather and elevation, which
+adjust carry distances. The app keeps only the latest weather result, for up to 15 minutes, on your phone.
+Open-Meteo's own privacy policy covers what it does with requests. If you enter conditions by hand, no location
+is used or sent.</p>
+
+<h2>Permissions</h2>
+<ul>
+  <li><strong>Nearby devices / Bluetooth:</strong> to connect to your launch monitor. It's never used to find your location.</li>
+  <li><strong>Local network:</strong> to reach your launch monitor on your Wi-Fi.</li>
+  <li><strong>Approximate location:</strong> only for automatic weather conditions, as above. On Android 11 and older,
+    Android also requires location permission to scan for Bluetooth devices; the app doesn't read your location for that.</li>
+</ul>
+
+<h2>Children</h2>
+<p>The app isn't directed at children under 13 and doesn't knowingly collect their data.</p>
+
+<h2>Changes and contact</h2>
+<p>Changes to this policy are published on this page and in the app's
+<a href="https://github.com/open-flight/openflight-mobile-kmp">source repository</a>.
+For questions, open an issue at
+<a href="https://github.com/open-flight/openflight-mobile-kmp/issues">github.com/open-flight/openflight-mobile-kmp/issues</a>.</p>
+</body>
+</html>
