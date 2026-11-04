@@ -30,8 +30,12 @@
         android:required="false" />
 
     <!-- F6: conditions AUTO mode, for weather/elevation lookup. Prompted only by "Use my
-         location", never on launch (parent plan §0.6). -->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+         location", never on launch (parent plan §0.6). core:ble caps this permission at API 30
+         for legacy BLE scans; without tools:remove the merger copies that cap here and Android 12+
+         never grants it. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        tools:remove="android:maxSdkVersion" />
 
     <application
         android:name=".OpenFlightApplication"
